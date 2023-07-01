@@ -1,6 +1,6 @@
 {
   "name": "valiukasd",
-  "description": "Portfolio website built using astro.",
+  "description": "Portfolio website built using astro ant tailwindcss.",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -22,7 +22,7 @@
     "prettier:write": "prettier --write . --ignore-path .gitignore",
     "astro:check": "astro check",
     "ts:check": "tsc --jsx preserve --skipLibCheck",
-    "check": "concurrently npm:*:check"
+    "check": "concurrently pnpm:*:check"
   },
   "dependencies": {
     "@floating-ui/dom": "1.2.7",

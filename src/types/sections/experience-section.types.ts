@@ -34,7 +34,7 @@ export interface Job {
    * Any information that you want to highlight.
    * We recommend to describe the technologies used in the project.
    */
-  tagsList: TagsList;
+  tagsList?: TagsList;
 
   /**
    * [WEB] Links related to your job (e.g. production app, company's website, project website).
