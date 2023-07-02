@@ -26,8 +26,8 @@ const shouldRenderSection = (section: keyof typeof sections) => sections[section
     {shouldRenderSection('main') && <MainSection {...sections.main} />}
     {shouldRenderSection('skills') && <SkillsSection {...sections.skills} />}
     {shouldRenderSection('experience') && <ExperienceSection {...sections.experience} />}
-    {shouldRenderSection('portfolio') && <PortfolioSection {...sections.portfolio} />}
     {shouldRenderSection('education') && <EducationSection {...sections.education} />}
+    {shouldRenderSection('portfolio') && <PortfolioSection {...sections.portfolio} />}
     {config.pdf?.footer && <Footer>{config.pdf.footer}</Footer>}
   </body>
 </html>

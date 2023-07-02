@@ -16,7 +16,7 @@ export interface Props extends Project {
 
 const { dates, description, details, image, links, name, tagsList, screenshots, screenshotsConfig } = Astro.props;
 
-const alt = `${name} project thumbnail`;
+const alt = `${name} projekto nuotrauka`;
 
 const galleryId = nanoid(8);
 const hasScreenshots = screenshots?.length && screenshots.length > 0;

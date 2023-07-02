@@ -1,127 +1,81 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, website } from '../helpers/links';
-import {
-  chakraUi,
-  eslint,
-  firebase,
-  jest,
-  nestJs,
-  nextJs,
-  nx,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  tailwindCss,
-  typescript,
-} from '../helpers/skills';
+import { demo, github } from '../helpers/links';
+import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
-    title: 'Projects',
+    title: 'Projektai',
     slug: 'projects',
     icon: 'fa6-solid:rocket',
     visible: true,
     screenshots: {
-      title: 'Screenshots',
+      title: 'Nuotraukos',
       icon: 'fa6-solid:images',
     },
   },
   projects: [
     {
-      name: 'Golden Bulls',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2020-03'), null],
+      name: 'valiukasd.lt',
+      image: import('@/assets/portfolio/Portfolio-Logo.png'),
+      dates: [new Date('2023-06'), null],
       details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        { label: 'Mano pareigos', value: ['Front-end programuotojas', 'Dizaineris'] },
+        { label: 'Įmonė', value: 'Nėra' },
+        { label: 'Kategorijos', value: ['Svetainė', 'Portfolio', 'Atvirojo-kodo'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+        { label: 'Demo', value: 'https://valiukasd.lt/', url: 'https://valiukasd.lt/' },
+        {
+          label: 'Github',
+          value: 'https://github.com/valiukasd/portfolio',
+          url: 'https://github.com/valiukasd/portfolio',
+        },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Trečioji nuotrauka' },
       ],
       description:
-        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+        'Šią svetainę sukūriau kaip savo CV svetainės formatu bei norėjau parodyti savo dabartiniu bei praeitus projektus. Šį projektą dariau apie savaitę ir labai džiaugiuosi jog pasirinkau naują technologiją su kuria ankščiau nesu dirbęs.',
       tagsList: {
-        title: 'Technologies',
-        tags: [nextJs(), sass(), pnpm(), eslint(), prettier()],
+        title: 'Technologijos',
+        tags: [astro(), react(), typescript(), tailwindCss(), npm(), eslint(), prettier()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [demo({ url: 'https://valiukasd.lt/' }), github({ url: 'https://github.com/valiukasd/portfolio' })],
     },
     {
-      name: 'TruQuest',
+      name: 'Avimeta',
       image: import('@/assets/portfolio/project-2.jpeg'),
-      dates: [new Date('2019-06'), new Date('2020-02')],
+      dates: [new Date('2023-02'), null],
       details: [
-        { label: 'Team size', value: '7 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Mobile Developer', 'Designer'] },
-        { label: 'Company', value: 'Facebook' },
-        { label: 'Category', value: ['Web app', 'Mobile app'] },
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        { label: 'Mano pareigos', value: ['Front-end programuotojas', 'Back-end programuotojas', 'Dizaineris'] },
+        { label: 'Įmonė', value: 'Nėra' },
+        { label: 'Kategorijos', value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė'] },
+      ],
+      screenshots: [
+        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Trečioji nuotrauka' },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://tru-quest-ck7ea3.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/tru-quest', url: '#' },
+        { label: 'Demo', value: 'https://avimeta.valiukasd.lt', url: 'https://avimeta.valiukasd.lt' },
+        {
+          label: 'Repository',
+          value: 'https://github.com/valiukasd/avimeta',
+          url: 'https://github.com/valiukasd/avimeta',
+        },
       ],
       description:
-        'Ut ultricies tortor at sodales aliquam. Vivamus metus ante, fringilla nec ligula in, suscipit rhoncus mauris. Praesent hendrerit velit odio, at accumsan urna faucibus convallis. Nunc at massa eget ligula volutpat dictum a sit amet libero. Vestibulum iaculis molestie maximus. In hac habitasse platea dictumst.',
+        'Šią internetinę parduotuvę sukūriau kaip savo pirmąjį pilną projektą, savo įgūdžiams įtvirtinti. Darbo įdėjau labai daug, kadangi viską dariau nuo nulio, tačiau išmokau labai daug ir labai džiaugiuosi jog užbaigiau šį projektą.',
       tagsList: {
-        title: 'Technologies',
-        tags: [react(), tailwindCss(), nestJs(), postgreSql()],
+        title: 'Technologijos',
+        tags: [nextJs(), react(), typescript(), tailwindCss(), eslint(), pnpm()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
-    },
-    {
-      name: 'Software Chasers',
-      image: import('@/assets/portfolio/project-3.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
-      details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
-      ],
-      description:
-        'Quisque id consectetur eros. In hac habitasse platea dictumst. Sed eu pulvinar orci. Mauris consequat, est in dignissim varius, neque nisl commodo mauris, id blandit risus justo eu nulla.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [react(), chakraUi(), typescript(), nx(), pnpm()],
-      },
-      links: [website({ url: '#' }), github({ url: '#' })],
-    },
-    {
-      name: 'Disco Ninjas',
-      image: import('@/assets/portfolio/project-4.jpeg'),
-      dates: [new Date('2016-05'), new Date('2018-07')],
-      details: [
-        { label: 'Team size', value: '11 people' },
-        { label: 'My role', value: 'Front-end Developer' },
-        { label: 'Company', value: 'Google' },
-        { label: 'Category', value: ['Mobile app', 'Open source'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/disco-ninjas', url: '#' },
-      ],
-      description:
-        'Praesent eu neque tortor. Vestibulum ac magna nisl. Vivamus massa sem, feugiat in pharetra non, convallis egestas purus. Ut consequat ullamcorper sem, in euismod nibh posuere ut. ',
-      tagsList: {
-        title: 'Technologies',
-        tags: [typescript(), jest(), firebase()],
-      },
-      links: [mockups({ url: '#' }), github({ url: '#' })],
+      links: [demo({ url: 'https://avimeta.valiukasd.lt' }), github({ url: 'https://github.com/valiukasd/avimeta' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;

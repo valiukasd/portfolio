@@ -1,82 +1,71 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
-import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
-  react,
-  reactQuery,
-  tailwindCss,
-  typescript,
-  vue,
-} from '../helpers/skills';
+import { website } from '../helpers/links';
 
 const experienceSectionData = {
   config: {
-    title: 'Work experience',
+    title: 'Darbo patirtis',
     slug: 'experience',
     icon: 'fa6-solid:suitcase',
     visible: true,
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Direktorius',
+      company: 'Gaveikenai UAB',
+      image: import('@/assets/logos/gaveikenai-logo.png'),
+      dates: [new Date('2023-08'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
+
+        - Įmonės valdymas dirbant su dokumentais, valstybės bei kitomis įstaigomis.
+        - Komandos valdymas dirbant ir komunikuojant su darbuotojais.
+        - Pinigų valdymas mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
         title: '',
         tags: [],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Buhalteris',
+      company: 'Vilniaus MSV-1',
+      image: import('@/assets/logos/msv-logo.png'),
+      dates: [new Date('2023-08'), null],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
+
+        - Pinigų valdymas mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - Komunikacijos igūdžiai renkant pinigus iš sodininkų.
+        Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
         title: '',
         tags: [],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: 'https://rekvizitai.vz.lt/imone/sodininku_bendrija_vilniaus_msv_1/' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Maisto darbuotojas',
+      company: 'Kebappa',
+      image: import('@/assets/logos/kebappa-logo.png'),
+      dates: [new Date('2021-06'), new Date('2021-07')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
+        Darbas su maistu, klientų aptarnavimas, kuriame buvo vystomi šie įgūdžiai:
 
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        - Kritinis mastymas įtemptomis darbo valandomis.
+        - Komandinis darbas su bendradarbiais maisto gaminimo procese.
+        - Atsakomybė gaminant maistą bei besirūpinant švara.
+        - Bendravimas aptarnaujant klientus.
+        Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
         title: '',
         tags: [],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [website({ url: 'https://www.kebappa.lt/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

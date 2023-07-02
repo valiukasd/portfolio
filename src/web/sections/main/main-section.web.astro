@@ -43,7 +43,7 @@ const { action, config, description, details, fullName, image, links, role, tags
         }
       </div>
       <div class="flex flex-col gap-6">
-        <div class="inline-grid xl:grid-cols-[auto_auto]">
+        <div class="inline-grid gap-x-4 xl:grid-cols-[auto_auto]">
           {details.map((detail) => <LabelledValue {...detail} />)}
         </div>
         <div class="flex flex-col gap-4">
