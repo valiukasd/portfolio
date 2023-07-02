@@ -11,7 +11,7 @@ const config = {
     },
   },
   meta: {
-    title: 'Deividas Valiukas',
+    title: 'Pradžia - Deividas Valiukas',
     description:
       'Deivido Valiuko asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, serverių kūrimo, hostingo, bei kitas IT paslaugas.',
     faviconPath: '/src/assets/portfolio/Portfolio-Logo.png',
