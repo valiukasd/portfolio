@@ -7,13 +7,13 @@ const config = {
     locale: enUS,
     dateFormat: 'MMMM yyyy',
     translations: {
-      now: 'now',
+      now: 'dabar',
     },
   },
   meta: {
     title: 'Deividas Valiukas',
     description:
-      'Mano asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, serverių kūrimo, hostingo, bei kitas IT paslaugas',
+      'Deivido Valiuko asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, serverių kūrimo, hostingo, bei kitas IT paslaugas.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {

@@ -13,20 +13,24 @@ const mainSectionData = {
   fullName: 'Deividas Valiukas',
   role: 'Mokinys, IT specialistas',
   details: [
-    { label: 'Gyvenamoji vieta', value: 'Vilnius, Lietuva' },
+    { label: 'Gyvenamoji vieta', value: 'Vilnius' },
     { label: 'Amžius', value: '18 metų' },
-    { label: 'El paštas', value: 'deivis.valiukas@gmail.com', url: 'mailto:deivis.valiukas@gmail.com' },
-    { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, sistemų kūrimas' },
+    { label: 'El paštas', value: 'labas@valiukasd.lt', url: 'mailto:labas@valiukasd.lt' },
+    { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas' },
   ],
   pdfDetails: [
-    { label: 'Email', value: 'deivis.valiukas@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://www.linkedin.com/in/valiukasd/' },
+    { label: 'Email', value: 'labas@valiukasd.lt' },
+    { label: 'LinkedIn', value: '/in/valiukasd', url: 'https://www.linkedin.com/in/valiukasd/' },
     { label: 'GitHub', value: '/valiukasd', url: 'https://github.com/valiukasd/' },
     { label: 'Website', value: 'valiukasd.lt', url: 'https://valiukasd.lt/', fullRow: true },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+    'Sveiki! Aš esu Deividas. Šiuo metu man yra 18 metų, gyvenu Vilniuje, ten pat ir mokausi, šiuo metu esu dvyliktoje klasėje. Esu labai kūrybingas, moku dirbti komandoje, man svarbi kiekviena detalė, taip pat labai greit įgaunu naujų įgūdžių bei žinių. Nuo vaikystės be galo domėjausi kompiuteriais, pradėjau tyrinėti kaip ir kodėl jie veikia, maždaug tuo metu ir atradau programavimą, tad būdamas trylikos metų jau sukūriau pirmąją savo internetinę svetainę, būdamas keturiolikos - pirmąjį savo kompiuterinį žaidimą, o penkiolikos - pirmą API serverį, tačiau čia nesustojau ir tobulėju iki šiol, ir dabar jau galiu savarankiškai kurti projektus, be problemų išmokdamas naują programavimo kalbą ar technologiją.',
+  tags: [
+    { name: 'Atviras laisvai samdomam darbui' },
+    { name: 'Laisvas patarti IT problemomis' },
+    { name: 'Šiuo metu jokiu projektu neužsiemu' },
+  ],
   action: {
     label: 'Atsisiūsti CV',
     url: '/cv.pdf',

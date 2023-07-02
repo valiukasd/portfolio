@@ -164,3 +164,10 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const angular = createSkillFactory({
+  name: 'Angular.js',
+  icon: 'simple-icons:angularjs',
+  iconColor: 'rgb(229,40,58)',
+  url: 'https://angularjs.org/',
+});

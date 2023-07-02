@@ -1,16 +1,16 @@
 {
   "name": "valiukasd",
-  "description": "Portfolio website built using astro ant tailwindcss.",
+  "description": "Portfolio website built using Astro ant TailwindCSS.",
   "version": "0.1.0",
   "private": true,
   "engines": {
     "node": ">=14",
-    "pnpm": "8.6.5",
-    "npm": "use-pnpm",
-    "yarn": "use-pnpm"
+    "pnpm": "use-npm",
+    "npm": ">=6",
+    "yarn": "use-npm"
   },
   "scripts": {
-    "postinstall": "pnpm generate-favicons",
+    "postinstall": "npm generate-favicons",
     "dev": "astro dev",
     "prebuild": "move-file ./src/pages/pdf.astro ./src/pages/_pdf.astro && npm run generate-favicons",
     "build": "astro build",
@@ -22,7 +22,7 @@
     "prettier:write": "prettier --write . --ignore-path .gitignore",
     "astro:check": "astro check",
     "ts:check": "tsc --jsx preserve --skipLibCheck",
-    "check": "concurrently pnpm:*:check"
+    "check": "concurrently npm:*:check"
   },
   "dependencies": {
     "@floating-ui/dom": "1.2.7",
