@@ -114,7 +114,7 @@ export interface TagsList {
    * [WEB] Tags are displayed as gray blocks. All tag properties are used.
    * [PDF] Tags are displayed comma separated list. Only the `name` property are used.
    */
-  tags?: Tag[];
+  tags: Tag[];
 }
 
 export interface DownloadButton {

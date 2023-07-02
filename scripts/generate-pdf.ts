@@ -30,7 +30,7 @@ const retry = async ({ promise, retries, retryTime }: RetryOptions): GoToReturn 
 };
 
 const main = async () => {
-  const child = exec('pnpm dev');
+  const child = exec('npm run dev');
 
   const browser = await puppeteer.launch({ headless: true });
 

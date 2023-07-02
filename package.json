@@ -10,7 +10,7 @@
     "yarn": "use-npm"
   },
   "scripts": {
-    "postinstall": "npm generate-favicons",
+    "postinstall": "npm run generate-favicons",
     "dev": "astro dev",
     "prebuild": "move-file ./src/pages/pdf.astro ./src/pages/_pdf.astro && npm run generate-favicons",
     "build": "astro build",

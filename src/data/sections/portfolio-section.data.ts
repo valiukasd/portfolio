@@ -1,7 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { demo, github } from '../helpers/links';
-import { astro, eslint, nextJs, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
+import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -42,7 +42,7 @@ const portfolioSectionData = {
         'Šią svetainę sukūriau kaip savo CV svetainės formatu bei norėjau parodyti savo dabartiniu bei praeitus projektus. Šį projektą dariau apie savaitę ir labai džiaugiuosi jog pasirinkau naują technologiją su kuria ankščiau nesu dirbęs.',
       tagsList: {
         title: 'Technologijos',
-        tags: [astro(), typescript(), tailwindCss(), pnpm(), eslint(), prettier()],
+        tags: [astro(), typescript(), tailwindCss(), npm(), eslint(), prettier()],
       },
       links: [demo({ url: 'https://valiukasd.lt/' }), github({ url: 'https://github.com/valiukasd/portfolio' })],
     },

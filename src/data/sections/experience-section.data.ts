@@ -23,6 +23,10 @@ const experienceSectionData = {
         - Pinigų valdymas mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
+      tagsList: {
+        title: '',
+        tags: []
+      },
       links: [],
     },
     {
@@ -37,6 +41,10 @@ const experienceSectionData = {
         - Komunikacijos igūdžiai renkant pinigus iš sodininkų.
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
+      tagsList: {
+        title: '',
+        tags: []
+      },
       links: [website({ url: 'https://rekvizitai.vz.lt/imone/sodininku_bendrija_vilniaus_msv_1/' })],
     },
     {
@@ -53,6 +61,10 @@ const experienceSectionData = {
         - Bendravimas aptarnaujant klientus.
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
+      tagsList: {
+        title: '',
+        tags: []
+      },
       links: [website({ url: 'https://www.kebappa.lt/' })],
     },
   ],
