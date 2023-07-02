@@ -1,2 +1,4 @@
 user-agent: *
-allow: *
+allow: /
+
+Sitemap: https://www.valiukasd.lt/sitemap-index.xml
