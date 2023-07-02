@@ -13,7 +13,7 @@ const educationSectionData = {
     {
       title: 'Pagrindinis išsilavinimas',
       institution: 'Vilniaus Salininkų gimnazija',
-      image: import('@/assets/logos/salininkai-logo.png'),
+      image: import('@/assets/logos/salininkai.png'),
       dates: [new Date('2017.09'), new Date('2021.06')],
       description: 'Pagrindinis mokyklinis išsilavinimas.',
       links: [website({ url: 'https://www.salininku.vilnius.lm.lt/' })],
