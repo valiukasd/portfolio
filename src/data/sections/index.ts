@@ -11,8 +11,8 @@ import testimonialsData from './testimonials-section.data';
 export const sections = {
   main: mainData,
   skills: skillsData,
-  education: educationData,
   experience: experienceData,
+  education: educationData,
   portfolio: portfolioData,
   testimonials: testimonialsData,
   favorites: favoritesData,
