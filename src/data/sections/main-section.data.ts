@@ -15,7 +15,7 @@ const mainSectionData = {
   details: [
     { label: 'Gyvenamoji vieta', value: 'Vilnius' },
     { label: 'Amžius', value: '18 metų' },
-    { label: 'El paštas', value: 'labas@valiukasd.lt', url: 'mailto:labas@valiukasd.lt' },
+    { label: 'El. paštas', value: 'labas@valiukasd.lt', url: 'mailto:labas@valiukasd.lt' },
     { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas' },
   ],
   pdfDetails: [
