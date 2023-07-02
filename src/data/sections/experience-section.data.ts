@@ -18,9 +18,10 @@ const experienceSectionData = {
       description: `
         Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
 
-        - Įmonės valdymas dirbant su dokumentais, valstybės bei kitomis įstaigomis.
-        - Komandos valdymas dirbant ir komunikuojant su darbuotojais.
-        - Pinigų valdymas mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
+        - **Komandos valdymas** dirbant ir komunikuojant su darbuotojais.
+        - **Pinigų valdymas** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
@@ -37,8 +38,9 @@ const experienceSectionData = {
       description: `
         Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
 
-        - Pinigų valdymas mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
-        - Komunikacijos igūdžiai renkant pinigus iš sodininkų.
+        - **Pinigų valdymas** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Komunikacijos igūdžiai** renkant pinigus iš sodininkų.
+
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
@@ -55,10 +57,11 @@ const experienceSectionData = {
       description: `
         Darbas su maistu, klientų aptarnavimas, kuriame buvo vystomi šie įgūdžiai:
 
-        - Kritinis mastymas įtemptomis darbo valandomis.
-        - Komandinis darbas su bendradarbiais maisto gaminimo procese.
-        - Atsakomybė gaminant maistą bei besirūpinant švara.
-        - Bendravimas aptarnaujant klientus.
+        - **Kritinis mastymas** įtemptomis darbo valandomis.
+        - **Komandinis darbas** su bendradarbiais maisto gaminimo procese.
+        - **Atsakomybė** gaminant maistą bei besirūpinant švara.
+        - **Bendravimas** aptarnaujant klientus.
+
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {

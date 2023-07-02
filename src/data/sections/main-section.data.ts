@@ -14,8 +14,8 @@ const mainSectionData = {
   role: 'Mokinys, Full-stack web programuotojas',
   details: [
     { label: 'Gyvenamoji vieta', value: 'Vilnius' },
-    { label: 'Amžius', value: '18 metų' },
     { label: 'El. paštas', value: 'labas@valiukasd.lt', url: 'mailto:labas@valiukasd.lt' },
+    { label: 'Amžius', value: '18 metų' },
     { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas' },
   ],
   pdfDetails: [
@@ -28,7 +28,7 @@ const mainSectionData = {
     'Sveiki! Aš esu Deividas. Šiuo metu man yra 18 metų, gyvenu Vilniuje, ten pat ir mokausi, šiuo metu esu dvyliktoje klasėje. Esu labai kūrybingas, moku dirbti komandoje, man svarbi kiekviena detalė, taip pat labai greit įgaunu naujų įgūdžių bei žinių. Nuo vaikystės be galo domėjausi kompiuteriais, pradėjau tyrinėti kaip ir kodėl jie veikia, maždaug tuo metu ir atradau programavimą, tad būdamas trylikos metų jau sukūriau pirmąją savo internetinę svetainę, būdamas keturiolikos - pirmąjį savo kompiuterinį žaidimą, o penkiolikos - pirmą API serverį, tačiau čia nesustojau ir tobulėju iki šiol, ir dabar jau galiu savarankiškai kurti projektus, be problemų išmokdamas naują programavimo kalbą ar technologiją.',
   tags: [
     { name: 'Atviras laisvai samdomam darbui' },
-    { name: 'Laisvas patarti IT problemomis' },
+    { name: 'Galiu patarti IT problemomis' },
     { name: 'Šiuo metu jokiu projektu neužsiemu' },
   ],
   action: {
