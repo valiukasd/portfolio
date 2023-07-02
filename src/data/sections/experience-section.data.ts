@@ -13,7 +13,7 @@ const experienceSectionData = {
     {
       role: 'Direktorius',
       company: 'Gaveikenai UAB',
-      image: import('@/assets/logos/gaveikenai-logo.png'),
+      image: import('@/assets/logos/gaveikenai.png'),
       dates: [new Date('2023-08'), null],
       description: `
         Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
@@ -33,7 +33,7 @@ const experienceSectionData = {
     {
       role: 'Buhalteris',
       company: 'Vilniaus MSV-1',
-      image: import('@/assets/logos/msv-logo.png'),
+      image: import('@/assets/logos/msv.png'),
       dates: [new Date('2023-08'), null],
       description: `
         Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
@@ -52,7 +52,7 @@ const experienceSectionData = {
     {
       role: 'Maisto darbuotojas',
       company: 'Kebappa',
-      image: import('@/assets/logos/kebappa-logo.png'),
+      image: import('@/assets/logos/kebappa.png'),
       dates: [new Date('2021-06'), new Date('2021-07')],
       description: `
         Darbas su maistu, klientų aptarnavimas, kuriame buvo vystomi šie įgūdžiai:
