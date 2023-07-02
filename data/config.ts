@@ -7,18 +7,17 @@ const config = {
     locale: enUS,
     dateFormat: 'MMMM yyyy',
     translations: {
-      now: 'now',
+      now: 'dabar',
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Deividas Valiukas',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'Deivido Valiuko asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, serverių kūrimo, hostingo, bei kitas IT paslaugas.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
-    footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+    footer: 'Sutinku, kad mano asmens duomenys, įtraukti į mano CV, būtų tvarkomi įdarbinimo proceso tikslais.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 

@@ -1,46 +1,39 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, linkedin, twitter } from '../helpers/links';
+import { facebook, github, linkedin, twitter } from '../helpers/links';
 
 const mainSectionData = {
   config: {
     icon: 'fa6-solid:user',
-    title: 'Profilis',
+    title: 'Profile',
     slug: 'profile',
     visible: true,
   },
   image: import('@/assets/my-image.jpeg'),
-  fullName: 'Deividas Valiukas',
-  role: 'Mokinys, IT specialistas',
+  fullName: 'Mark Freeman',
+  role: 'Senior React Developer',
   details: [
-    { label: 'Gyvenamoji vieta', value: 'Vilnius' },
-    { label: 'Amžius', value: '18 metų' },
-    { label: 'El paštas', value: 'labas@valiukasd.lt', url: 'mailto:labas@valiukasd.lt' },
-    { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas' },
+    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
+    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
+    { label: 'From', value: 'Warsaw, Poland' },
+    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
   ],
   pdfDetails: [
-    { label: 'Email', value: 'labas@valiukasd.lt' },
-    { label: 'LinkedIn', value: '/in/valiukasd', url: 'https://www.linkedin.com/in/valiukasd/' },
-    { label: 'GitHub', value: '/valiukasd', url: 'https://github.com/valiukasd/' },
-    { label: 'Website', value: 'valiukasd.lt', url: 'https://valiukasd.lt/', fullRow: true },
+    { label: 'Phone', value: '605 475 6961' },
+    { label: 'Email', value: 'mark.freeman.dev@gmail.com' },
+    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
+    { label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
+    { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
   description:
-    'Sveiki! Aš esu Deividas. Šiuo metu man yra 18 metų, gyvenu Vilniuje, ten pat ir mokausi, šiuo metu esu dvyliktoje klasėje. Esu labai kūrybingas, moku dirbti komandoje, man svarbi kiekviena detalė, taip pat labai greit įgaunu naujų įgūdžių bei žinių. Nuo vaikystės be galo domėjausi kompiuteriais, pradėjau tyrinėti kaip ir kodėl jie veikia, maždaug tuo metu ir atradau programavimą, tad būdamas trylikos metų jau sukūriau pirmąją savo internetinę svetainę, būdamas keturiolikos - pirmąjį savo kompiuterinį žaidimą, o penkiolikos - pirmą API serverį, tačiau čia nesustojau ir tobulėju iki šiol, ir dabar jau galiu savarankiškai kurti projektus, be problemų išmokdamas naują programavimo kalbą ar technologiją.',
-  tags: [
-    { name: 'Atviras laisvai samdomam darbui' },
-    { name: 'Laisvas patarti IT problemomis' },
-    { name: 'Šiuo metu jokiu projektu neužsiemu' },
-  ],
+    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
+  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
   action: {
-    label: 'Atsisiūsti CV',
+    label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Deividas_Valiukas.pdf',
+    downloadedFileName: 'CV-Mark_Freeman.pdf',
   },
-  links: [
-    github({ url: 'https://github.com/valiukasd/' }),
-    linkedin({ url: 'https://www.linkedin.com/in/valiukasd/' }),
-    twitter({ url: 'https://twitter.com/valiukasd' }),
-  ],
+  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;

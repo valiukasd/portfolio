@@ -164,3 +164,17 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const angular = createSkillFactory({
+  name: 'Angular.js',
+  icon: 'simple-icons:angularjs',
+  iconColor: 'rgb(229,40,58)',
+  url: 'https://angularjs.org/',
+});
+
+export const npm = createSkillFactory({
+  name: 'NPM',
+  icon: 'simple-icons:npm',
+  iconColor: '#000000',
+  url: 'https://www.npmjs.com/',
+});
