@@ -144,21 +144,21 @@ export const vimeo = createLinkFactory({
 // PROJECT TYPE
 
 export const website = createLinkFactory({
-  name: 'Website',
+  name: 'Svetainė',
   icon: 'fa6-solid:globe',
 });
 
 export const demo = createLinkFactory({
-  name: 'App demo',
+  name: 'Demo',
   icon: 'fa6-solid:desktop',
 });
 
 export const mockups = createLinkFactory({
-  name: 'Mockups',
+  name: 'Maketai',
   icon: 'fa6-solid:paintbrush',
 });
 
 export const repository = createLinkFactory({
-  name: 'Repository',
+  name: 'Talpykla',
   icon: 'fa6-solid:code-branch',
 });
