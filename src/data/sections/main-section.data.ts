@@ -9,14 +9,14 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
+  image: import('@/assets/me.jpg'),
   fullName: 'Deividas Valiukas',
   role: 'Mokinys, Full-stack web programuotojas',
   details: [
     { label: 'Gyvenamoji vieta', value: 'Vilnius' },
     { label: 'El. paštas', value: 'labas@valiukasd.lt', url: 'mailto:labas@valiukasd.lt' },
     { label: 'Amžius', value: '18 metų' },
-    { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas' },
+    { label: 'Specializacija', value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas, IT paslaugos' },
   ],
   pdfDetails: [
     { label: 'Email', value: 'labas@valiukasd.lt' },
