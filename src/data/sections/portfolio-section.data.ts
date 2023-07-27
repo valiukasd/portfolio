@@ -1,6 +1,6 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github } from '../helpers/links';
+import { github, website } from '../helpers/links';
 import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
 
 const portfolioSectionData = {
@@ -18,7 +18,7 @@ const portfolioSectionData = {
     {
       name: 'valiukasd.lt',
       image: import('@/assets/portfolio/Portfolio-Logo.png'),
-      dates: [new Date('2023-06'), null],
+      dates: [new Date('2023-06'), new Date('2023-07')],
       details: [
         { label: 'Komandos dydis', value: '1 asmuo' },
         { label: 'Mano pareigos', value: ['Front-end programuotojas', 'Dizaineris'] },
@@ -34,9 +34,9 @@ const portfolioSectionData = {
         },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Pirmoji nuotrauka' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Antroji nuotrauka' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Trečioji nuotrauka' },
+        { src: import('@/assets/portfolio/valiukasd-1.png'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/valiukasd-2.png'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/valiukasd-3.png'), alt: 'Trečioji nuotrauka' },
       ],
       description:
         'Šią svetainę sukūriau kaip savo CV svetainės formatu bei norėjau parodyti savo dabartiniu bei praeitus projektus. Šį projektą dariau apie savaitę ir labai džiaugiuosi jog pasirinkau naują technologiją su kuria ankščiau nesu dirbęs.',
@@ -44,12 +44,12 @@ const portfolioSectionData = {
         title: 'Technologijos',
         tags: [astro(), react(), typescript(), tailwindCss(), npm(), eslint(), prettier()],
       },
-      links: [demo({ url: 'https://valiukasd.lt/' }), github({ url: 'https://github.com/valiukasd/portfolio' })],
+      links: [website({ url: 'https://valiukasd.lt/' }), github({ url: 'https://github.com/valiukasd/portfolio' })],
     },
     {
       name: 'Avimeta',
-      image: import('@/assets/portfolio/project-2.jpeg'),
-      dates: [new Date('2023-02'), null],
+      image: import('@/assets/portfolio/Avimeta-Logo.png'),
+      dates: [new Date('2023-02'), new Date('2023-07')],
       details: [
         { label: 'Komandos dydis', value: '1 asmuo' },
         { label: 'Mano pareigos', value: ['Front-end programuotojas', 'Back-end programuotojas', 'Dizaineris'] },
@@ -57,12 +57,12 @@ const portfolioSectionData = {
         { label: 'Kategorijos', value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė'] },
       ],
       screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'Pirmoji nuotrauka' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Antroji nuotrauka' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Trečioji nuotrauka' },
+        { src: import('@/assets/portfolio/avimeta-1.png'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/avimeta-2.png'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/avimeta-3.png'), alt: 'Trečioji nuotrauka' },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://avimeta.valiukasd.lt', url: 'https://avimeta.valiukasd.lt' },
+        { label: 'Svetainė', value: 'https://avimeta.valiukasd.lt', url: 'https://avimeta.valiukasd.lt' },
         {
           label: 'Repository',
           value: 'https://github.com/valiukasd/avimeta',
@@ -75,7 +75,7 @@ const portfolioSectionData = {
         title: 'Technologijos',
         tags: [nextJs(), react(), typescript(), tailwindCss(), eslint(), pnpm()],
       },
-      links: [demo({ url: 'https://avimeta.valiukasd.lt' }), github({ url: 'https://github.com/valiukasd/avimeta' })],
+      links: [website({ url: 'https://avimeta.valiukasd.lt' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;

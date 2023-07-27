@@ -1,6 +1,6 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { website } from '../helpers/links';
+import { facebook, website } from '../helpers/links';
 
 const experienceSectionData = {
   config: {
@@ -14,7 +14,7 @@ const experienceSectionData = {
       role: 'Direktorius',
       company: 'Gaveikenai UAB',
       image: import('@/assets/logos/gaveikenai.png'),
-      dates: [new Date('2023-08'), null],
+      dates: [new Date('2023-03'), null],
       description: `
         Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
 
@@ -34,7 +34,7 @@ const experienceSectionData = {
       role: 'Buhalteris',
       company: 'Vilniaus MSV-1',
       image: import('@/assets/logos/msv.png'),
-      dates: [new Date('2023-08'), null],
+      dates: [new Date('2023-03'), null],
       description: `
         Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
 
@@ -68,7 +68,7 @@ const experienceSectionData = {
         title: '',
         tags: [],
       },
-      links: [website({ url: 'https://www.kebappa.lt/' })],
+      links: [website({ url: 'https://www.kebappa.lt/' }), facebook({ url: 'https://www.facebook.com/kebappa/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

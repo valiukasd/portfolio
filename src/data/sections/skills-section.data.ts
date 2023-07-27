@@ -21,14 +21,34 @@ import {
 
 const skillsSectionData = {
   config: {
-    title: 'Įgūdžiai',
+    title: 'Apie mane',
     slug: 'skills',
     icon: 'fa6-solid:bars-progress',
     visible: true,
   },
   skillSets: [
     {
-      title: 'Jau moku',
+      title: 'Kalbu šiomis kalbomis',
+      skills: [
+        { icon: 'circle-flags:lt', name: 'Lietuvių - gimtoji' },
+        { icon: 'circle-flags:us', name: 'Anglų - puikiai kalbu bei rašau' },
+        { icon: 'circle-flags:ru', name: 'Rusų - moku susikalbėti' },
+      ],
+    },
+    {
+      title: 'Įgūdžiai',
+      skills: [
+        { icon: 'fa6-solid:comments', name: 'Komunikabilumas', level: 5 },
+        { icon: 'fa6-solid:person-digging', name: 'Darbštumas', level: 5 },
+        { icon: 'fa6-solid:brain', name: 'Kritinis mastymas', level: 5 },
+        { icon: 'fa6-solid:calendar-week', name: 'Laiko planavimas', level: 5 },
+        { icon: 'fa6-solid:people-roof', name: 'Prisitaikymas', level: 4 },
+        { icon: 'fa6-solid:chart-line', name: 'Vadovybė', level: 4 },
+        { icon: 'fa6-solid:people-group', name: 'Komandinis darbas', level: 4 },
+      ],
+    },
+    {
+      title: 'IT Įgūdžiai',
       skills: [
         react({
           level: 5,
@@ -36,10 +56,10 @@ const skillsSectionData = {
         nextJs({
           level: 5,
         }),
+        tailwindCss({ level: 5 }),
         typescript({
           level: 4,
         }),
-        tailwindCss({ level: 5 }),
         prettier({ level: 5 }),
         pnpm({ level: 5 }),
         npm({ level: 5 }),
@@ -55,14 +75,6 @@ const skillsSectionData = {
     {
       title: 'Noriu išmokti',
       skills: [astro(), supabase(), cypress(), vue(), angular()],
-    },
-    {
-      title: 'Kalbu šiomis kalbomis',
-      skills: [
-        { icon: 'circle-flags:lt', name: 'Lietuvių - gimtoji' },
-        { icon: 'circle-flags:us', name: 'Anglų - puikiai kalbu bei rašau' },
-        { icon: 'circle-flags:ru', name: 'Rusų - moku susikalbėti' },
-      ],
     },
   ],
 } as const satisfies ReadonlyDeep<SkillsSection>;
