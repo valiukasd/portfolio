@@ -1,11 +1,11 @@
-import type { CircleFlags, Fa6Brands, Fa6Solid, Ri, SimpleIcons } from 'iconify-icon-names';
+import type { CircleFlags, Fa6Brands, Fa6Solid, Ri, SimpleIcons, Twemoji } from 'iconify-icon-names';
 
 /**
  * Name of the icon from the iconify library.
  *
  * @see https://icon-sets.iconify.design
  */
-export type IconName = Fa6Brands | Fa6Solid | SimpleIcons | CircleFlags | Ri;
+export type IconName = Fa6Brands | Fa6Solid | SimpleIcons | CircleFlags | Ri | Twemoji;
 
 /**
  * - Dynamic import of the image from `src/assets` folder. Recommended as it enables image optimization.
@@ -51,6 +51,38 @@ export interface Section {
    * Base information about the section.
    */
   config: SectionConfig;
+}
+
+export interface CTAConfig {
+  /**
+   *  [WEB] Name displayed as a section header (except for the main section).
+   */
+  title: string;
+
+  /**
+   * [WEB] Description used in the CTA.
+   */
+  description: string;
+
+  /**
+   * [WEB] Icon used in sidebar navigation to represent the section.
+   */
+  icon: IconName;
+
+  /**
+   * Should section be displayed on the page.
+   */
+  visible?: boolean;
+
+  /**
+   * [WEB] Text displayed within the download button.
+   */
+  buttonLabel: string;
+
+  /**
+   * [WEB] URL or path to the CV file.
+   */
+  buttonUrl: string;
 }
 
 export interface LabelledValue {
@@ -153,4 +185,16 @@ export interface LinkButton {
    * [WEB] URL that will be opened in a new tab, when the button is clicked.
    */
   url: string;
+}
+
+export interface CTAButton {
+  /**
+   * [WEB] Text displayed within the download button.
+   */
+  buttonLabel: string;
+
+  /**
+   * [WEB] URL or path to the CV file.
+   */
+  buttonUrl: string;
 }

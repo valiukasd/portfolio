@@ -1,12 +1,12 @@
 {
   "name": "valiukasd",
   "description": "Portfolio website built using Astro ant TailwindCSS.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "engines": {
-    "node": ">=14",
+    "node": ">=18.14.0",
     "pnpm": "use-npm",
-    "npm": ">=6",
+    "npm": ">=9.5",
     "yarn": "use-npm"
   },
   "scripts": {

@@ -10,6 +10,7 @@ import EducationSection from '@/web/sections/education/education-section.web.ast
 import TestimonialsSection from '@/web/sections/testimonials/testimonials-section.web.astro';
 import FavoritesSection from '@/web/sections/favorites/favorites-section.web.astro';
 import cv from '@/data';
+import Cta from '@/web/sections/cta/cta.astro';
 
 const { config, sections } = cv();
 ---
@@ -24,6 +25,7 @@ const { config, sections } = cv();
     <PortfolioSection {...sections.portfolio} />
     <TestimonialsSection {...sections.testimonials} />
     <FavoritesSection {...sections.favorites} />
+    <Cta {...config.cta} />
   </main>
   <Sidebar sections={sections} className="sticky top-8 mt-20" />
   <script src="../web/scripts/initialize-tooltips.ts"></script>

@@ -1,0 +1,32 @@
+---
+import { CTASection } from '@/types/sections/cta-section.types';
+import CtaButton from '@/web/components/cta-button.astro';
+import Icon from '@/web/components/icon.astro';
+import Typography from '@/web/components/typography.astro';
+
+export interface Props extends CTASection {
+  className?: string;
+  hideTitle?: boolean;
+}
+
+const { description, hideTitle, className, visible, title, icon, buttonUrl, buttonLabel } = Astro.props;
+---
+
+{
+  visible && (
+    <header
+      id={'cta'}
+      data-type="section"
+      class:list={['flex flex-row gap-6 rounded-2xl bg-white p-8 shadow-md dark:bg-gray-800 mx-auto', className]}
+    >
+      <Icon name={icon} size={45} class="mx-2 my-auto" />
+      <div>
+        {!hideTitle && <Typography variant="section-title">{title}</Typography>}
+        <Typography variant="paragraph">{description}</Typography>
+      </div>
+      <div class="my-auto ml-auto">
+        <CtaButton buttonUrl={buttonUrl} buttonLabel={buttonLabel} />
+      </div>
+    </header>
+  )
+}

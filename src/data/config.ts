@@ -19,6 +19,14 @@ const config = {
   pdf: {
     footer: 'Sutinku, kad mano asmens duomenys, įtraukti į mano CV, būtų tvarkomi įdarbinimo proceso tikslais.',
   },
+  cta: {
+    title: 'Ieškote svetainės?',
+    description: 'Suteikiu svetainės kūrimo paslaugas nuo dizaino iki SEO. Susisiekime!',
+    icon: 'twemoji:waving-hand',
+    visible: true,
+    buttonLabel: 'Susisiekite →',
+    buttonUrl: 'mailto:labas@valiukasd.lt',
+  },
 } as const satisfies ReadonlyDeep<Config>;
 
 export default config;

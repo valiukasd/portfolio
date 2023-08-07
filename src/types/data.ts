@@ -8,6 +8,7 @@ import type { MainSection } from './sections/main-section.types';
 import type { PortfolioSection } from './sections/portfolio-section.types';
 import type { SkillsSection } from './sections/skills-section.types';
 import type { TestimonialsSection } from './sections/testimonials-section.types';
+import { CTAConfig } from './shared';
 
 export type Config = {
   /**
@@ -24,6 +25,11 @@ export type Config = {
    * [PDF] Configuration of the pdf generation.
    */
   pdf?: PdfConfig;
+
+  /**
+   * [WEB] Configuration of the call to action element.
+   */
+  cta?: CTAConfig;
 };
 
 export type Sections = {
