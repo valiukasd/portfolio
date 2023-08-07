@@ -1,8 +1,10 @@
 ---
-import type { CTAButton } from '@/types/shared';
 import Typography from './typography.astro';
 
-export interface Props extends CTAButton {}
+export interface Props {
+  buttonUrl: string;
+  buttonLabel: string;
+}
 
 const classes = /* tw */ {
   main: 'inline-flex items-center px-4 h-10 rounded-md shadow-sm bg-primary-600 select-none cursor-pointer',

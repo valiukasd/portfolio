@@ -186,15 +186,3 @@ export interface LinkButton {
    */
   url: string;
 }
-
-export interface CTAButton {
-  /**
-   * [WEB] Text displayed within the download button.
-   */
-  buttonLabel: string;
-
-  /**
-   * [WEB] URL or path to the CV file.
-   */
-  buttonUrl: string;
-}

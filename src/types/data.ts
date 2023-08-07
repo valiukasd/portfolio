@@ -29,7 +29,7 @@ export type Config = {
   /**
    * [WEB] Configuration of the call to action element.
    */
-  cta?: CTAConfig;
+  cta: CTAConfig;
 };
 
 export type Sections = {

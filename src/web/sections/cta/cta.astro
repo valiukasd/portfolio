@@ -1,10 +1,10 @@
 ---
-import { CTASection } from '@/types/sections/cta-section.types';
+import { CTAConfig } from '@/types/shared';
 import CtaButton from '@/web/components/cta-button.astro';
 import Icon from '@/web/components/icon.astro';
 import Typography from '@/web/components/typography.astro';
 
-export interface Props extends CTASection {
+export interface Props extends CTAConfig {
   className?: string;
   hideTitle?: boolean;
 }
