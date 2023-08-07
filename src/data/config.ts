@@ -20,7 +20,7 @@ const config = {
     footer: 'Sutinku, kad mano asmens duomenys, įtraukti į mano CV, būtų tvarkomi įdarbinimo proceso tikslais.',
   },
   cta: {
-    title: 'Ieškote svetainės?',
+    title: 'Reikia svetainės?',
     description: 'Suteikiu svetainės kūrimo paslaugas nuo dizaino iki SEO. Susisiekime!',
     icon: 'twemoji:waving-hand',
     visible: true,
