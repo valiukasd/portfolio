@@ -17,10 +17,11 @@ const experienceSectionData = {
       dates: [new Date('2023-03'), null],
       description: `
         Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
-
+        &nbsp;
         - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
         - **Komandos valdymas** dirbant ir komunikuojant su darbuotojais.
         - **Pinigų valdymas** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        &nbsp;
 
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
@@ -37,9 +38,10 @@ const experienceSectionData = {
       dates: [new Date('2023-03'), null],
       description: `
         Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
-
+        &nbsp;
         - **Pinigų valdymas** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
         - **Komunikacijos igūdžiai** renkant pinigus iš sodininkų.
+        &nbsp;
 
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
@@ -56,11 +58,12 @@ const experienceSectionData = {
       dates: [new Date('2021-06'), new Date('2021-07')],
       description: `
         Darbas su maistu, klientų aptarnavimas, kuriame buvo vystomi šie įgūdžiai:
-
+        &nbsp;
         - **Kritinis mastymas** įtemptomis darbo valandomis.
         - **Komandinis darbas** su bendradarbiais maisto gaminimo procese.
         - **Atsakomybė** gaminant maistą bei besirūpinant švara.
         - **Bendravimas** aptarnaujant klientus.
+        &nbsp;
 
         Ir daug kitų kurių nespėsiu čia išvardinti...
       `,

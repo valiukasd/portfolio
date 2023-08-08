@@ -16,6 +16,30 @@ const portfolioSectionData = {
   },
   projects: [
     {
+      name: 'gaveikenai.lt',
+      image: import('@/assets/portfolio/Gaveikenai-Logo.png'),
+      dates: [new Date('2023-07'), new Date('2023-08')],
+      details: [
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        { label: 'Mano pareigos', value: ['Front-end programuotojas', 'Dizaineris'] },
+        { label: 'Įmonė', value: 'UAB Gaveikenai' },
+        { label: 'Kategorijos', value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė'] },
+      ],
+      pdfDetails: [{ label: 'Demo', value: 'https://gaveikenai.lt/', url: 'https://gaveikenai.lt/' }],
+      screenshots: [
+        { src: import('@/assets/portfolio/valiukasd-1.png'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/valiukasd-2.png'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/valiukasd-3.png'), alt: 'Trečioji nuotrauka' },
+      ],
+      description:
+        'Šią svetainę sukūriau kaip įmonės UAB Gaveikenai informacinį puslapį, kuriame pateikiami įmonės kontaktai, bei trumpas aprašas apie įmonės veiklą. Svetainė pilnai optimizuota SEO, bei turi labai greitą krovimo laiką.',
+      tagsList: {
+        title: 'Technologijos',
+        tags: [astro(), react(), typescript(), tailwindCss(), npm(), eslint(), prettier()],
+      },
+      links: [website({ url: 'https://gaveikenai.lt/' })],
+    },
+    {
       name: 'valiukasd.lt',
       image: import('@/assets/portfolio/Portfolio-Logo.png'),
       dates: [new Date('2023-06'), new Date('2023-07')],
@@ -61,14 +85,7 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/avimeta-2.png'), alt: 'Antroji nuotrauka' },
         { src: import('@/assets/portfolio/avimeta-3.png'), alt: 'Trečioji nuotrauka' },
       ],
-      pdfDetails: [
-        { label: 'Svetainė', value: 'https://avimeta.valiukasd.lt', url: 'https://avimeta.valiukasd.lt' },
-        {
-          label: 'Repository',
-          value: 'https://github.com/valiukasd/avimeta',
-          url: 'https://github.com/valiukasd/avimeta',
-        },
-      ],
+      pdfDetails: [{ label: 'Svetainė', value: 'https://avimeta.valiukasd.lt', url: 'https://avimeta.valiukasd.lt' }],
       description:
         'Šią internetinę parduotuvę sukūriau kaip savo pirmąjį pilną projektą, savo įgūdžiams įtvirtinti. Darbo įdėjau labai daug, kadangi viską dariau nuo nulio, tačiau išmokau labai daug ir labai džiaugiuosi jog užbaigiau šį projektą.',
       tagsList: {
