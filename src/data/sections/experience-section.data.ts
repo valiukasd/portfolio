@@ -19,8 +19,8 @@ const experienceSectionData = {
         Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
         &nbsp;
         - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
-        - **Komandos valdymas** dirbant ir komunikuojant su darbuotojais.
-        - **Pinigų valdymas** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Komandinio darbo igūdžiai** dirbant ir komunikuojant su darbuotojais.
+        - **Finansiniai įgūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
         &nbsp;
 
         Ir daug kitų kurių nespėsiu čia išvardinti...
@@ -29,7 +29,7 @@ const experienceSectionData = {
         title: '',
         tags: [],
       },
-      links: [],
+      links: [website({ url: 'https://gaveikenai.lt' })],
     },
     {
       role: 'Buhalteris',
@@ -39,7 +39,7 @@ const experienceSectionData = {
       description: `
         Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
         &nbsp;
-        - **Pinigų valdymas** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Finansiniai igūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
         - **Komunikacijos igūdžiai** renkant pinigus iš sodininkų.
         &nbsp;
 

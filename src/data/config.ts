@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Pradžia - Deividas Valiukas',
     description:
-      'Deivido Valiuko asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, serverių kūrimo, hostingo, bei kitas IT paslaugas.',
+      'Deivido Valiuko asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, dizaino, serverių kūrimo, hostingo, bei kitas IT paslaugas.',
     faviconPath: '/src/assets/portfolio/Portfolio-Logo.png',
   },
   pdf: {
@@ -24,7 +24,7 @@ const config = {
     description: 'Suteikiu svetainės kūrimo paslaugas nuo dizaino iki SEO. Susisiekime!',
     icon: 'twemoji:waving-hand',
     visible: true,
-    buttonLabel: 'Susisiekite →',
+    buttonLabel: 'Susisiekti →',
     buttonUrl: 'mailto:labas@valiukasd.lt',
   },
 } as const satisfies ReadonlyDeep<Config>;
