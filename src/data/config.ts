@@ -21,7 +21,7 @@ const config = {
   },
   cta: {
     title: 'Reikia svetainės?',
-    description: 'Suteikiu svetainės kūrimo paslaugas nuo dizaino iki SEO. Susisiekime!',
+    description: 'Suteikiu svetainės kūrimo bei administravimo paslaugas nuo idėjos iki įgyvendinimo. Susisiekime!',
     icon: 'twemoji:waving-hand',
     visible: true,
     buttonLabel: 'Susisiekti →',
