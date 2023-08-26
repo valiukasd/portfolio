@@ -66,15 +66,15 @@ const skillsSectionData = {
         eslint({
           level: 4,
         }),
+        astro({ level: 3 }),
         apolloGraphql({ level: 3 }),
         postgreSql({ level: 3 }),
         mongoDb({ level: 2 }),
-        astro({ level: 1 }),
       ],
     },
     {
       title: 'Noriu išmokti',
-      skills: [astro(), supabase(), cypress(), vue(), angular()],
+      skills: [supabase(), cypress(), vue(), angular()],
     },
   ],
 } as const satisfies ReadonlyDeep<SkillsSection>;

@@ -27,15 +27,15 @@ const portfolioSectionData = {
       ],
       pdfDetails: [{ label: 'Demo', value: 'https://gaveikenai.lt/', url: 'https://gaveikenai.lt/' }],
       screenshots: [
-        { src: import('@/assets/portfolio/valiukasd-1.png'), alt: 'Pirmoji nuotrauka' },
-        { src: import('@/assets/portfolio/valiukasd-2.png'), alt: 'Antroji nuotrauka' },
-        { src: import('@/assets/portfolio/valiukasd-3.png'), alt: 'Trečioji nuotrauka' },
+        { src: import('@/assets/portfolio/gaveikenai-1.png'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/gaveikenai-2.png'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/gaveikenai-3.png'), alt: 'Trečioji nuotrauka' },
       ],
       description:
         'Šią svetainę sukūriau kaip įmonės UAB Gaveikenai informacinį puslapį, kuriame pateikiami įmonės kontaktai, bei trumpas aprašas apie įmonės veiklą. Svetainė pilnai optimizuota SEO, bei turi labai greitą krovimo laiką.',
       tagsList: {
         title: 'Technologijos',
-        tags: [astro(), react(), typescript(), tailwindCss(), npm(), eslint(), prettier()],
+        tags: [astro(), typescript(), tailwindCss(), pnpm(), eslint(), prettier()],
       },
       links: [website({ url: 'https://gaveikenai.lt/' })],
     },
