@@ -38,13 +38,13 @@ const skillsSectionData = {
     {
       title: 'Įgūdžiai',
       skills: [
-        { icon: 'fa6-solid:comments', name: 'Komunikabilumas', level: 5 },
-        { icon: 'fa6-solid:person-digging', name: 'Darbštumas', level: 5 },
-        { icon: 'fa6-solid:brain', name: 'Kritinis mastymas', level: 5 },
-        { icon: 'fa6-solid:calendar-week', name: 'Laiko planavimas', level: 5 },
-        { icon: 'fa6-solid:people-roof', name: 'Prisitaikymas', level: 4 },
-        { icon: 'fa6-solid:chart-line', name: 'Vadovybė', level: 4 },
-        { icon: 'fa6-solid:people-group', name: 'Komandinis darbas', level: 4 },
+        { icon: 'flat-color-icons:advertising', name: 'Komunikabilumas', level: 5 },
+        { icon: 'flat-color-icons:factory', name: 'Darbštumas', level: 5 },
+        { icon: 'flat-color-icons:alarm-clock', name: 'Kritinis mastymas', level: 5 },
+        { icon: 'flat-color-icons:planner', name: 'Laiko planavimas', level: 5 },
+        { icon: 'flat-color-icons:reading', name: 'Prisitaikymas', level: 4 },
+        { icon: 'flat-color-icons:podium-with-speaker', name: 'Vadovybė', level: 4 },
+        { icon: 'flat-color-icons:voice-presentation', name: 'Komandinis darbas', level: 4 },
       ],
     },
     {
