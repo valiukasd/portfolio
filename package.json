@@ -1,6 +1,6 @@
 {
   "name": "valiukasd",
-  "description": "Portfolio website built using Astro ant TailwindCSS.",
+  "description": "Portfolio website built using Astro and TailwindCSS.",
   "version": "1.2.0",
   "private": true,
   "engines": {
