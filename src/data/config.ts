@@ -1,7 +1,6 @@
 import type { Config } from '@/types/data';
 import { lt } from 'date-fns/locale';
 import type { ReadonlyDeep } from 'type-fest';
-import { t } from 'astro-i18n';
 
 const config = {
   i18n: {
@@ -12,19 +11,20 @@ const config = {
     },
   },
   meta: {
-    title: t('config.main.meta.title'),
-    description: t('config.main.meta.description'),
+    title: 'Pradžia - Deividas Valiukas',
+    description:
+      'Deivido Valiuko asmeninė CV svetainė. Deividas Valiukas suteikia web svetainių, dizaino, serverių kūrimo, hostingo, bei kitas IT paslaugas.',
     faviconPath: '/src/assets/portfolio/Portfolio-Logo.png',
   },
   pdf: {
-    footer: t('config.main.pdf.footer'),
+    footer: 'Sutinku, kad mano asmens duomenys, įtraukti į mano CV, būtų tvarkomi įdarbinimo proceso tikslais.',
   },
   cta: {
-    title: t('config.main.cta.title'),
-    description: t('config.main.cta.description'),
+    title: 'Reikia svetainės?',
+    description: 'Suteikiu svetainės kūrimo bei administravimo paslaugas nuo idėjos iki įgyvendinimo. Susisiekime!',
     icon: 'twemoji:waving-hand',
     visible: true,
-    buttonLabel: t('config.main.cta.buttonLabel'),
+    buttonLabel: 'Susisiekti →',
     buttonUrl: 'mailto:labas@valiukasd.lt',
   },
 } as const satisfies ReadonlyDeep<Config>;

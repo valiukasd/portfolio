@@ -1,4 +1,3 @@
-import i18n from "astro-i18n"
 import image from '@astrojs/image';
 import tailwind from '@astrojs/tailwind';
 import compress from 'astro-compress';
@@ -11,7 +10,7 @@ import vercel from '@astrojs/vercel/static'; // https://astro.build/config
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [i18n(),tailwind(), image(), compress(), sitemap()],
+  integrations: [tailwind(), image(), compress(), sitemap()],
   site: 'https://valiukasd.lt',
   vite: {
     plugins: [visualizer()],

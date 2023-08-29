@@ -1,22 +1,30 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, website } from '../helpers/links';
-import { t } from 'astro-i18n';
 
 const experienceSectionData = {
   config: {
-    title: t('config.main.sections.experience.config.title'),
+    title: 'Darbo patirtis',
     slug: 'experience',
     icon: 'fa6-solid:suitcase',
     visible: true,
   },
   jobs: [
     {
-      role: t('config.main.sections.experience.jobs.job1.role'),
-      company: t('config.main.sections.experience.jobs.job1.company'),
+      role: 'Direktorius',
+      company: 'Gaveikenai UAB',
       image: import('@/assets/logos/gaveikenai.png'),
       dates: [new Date('2023-03'), null],
-      description: t('config.main.sections.experience.jobs.job1.description'),
+      description: `
+        Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
+        &nbsp;
+        - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
+        - **Komandinio darbo igūdžiai** dirbant ir komunikuojant su darbuotojais.
+        - **Finansiniai įgūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        &nbsp;
+
+        Ir daug kitų kurių nespėsiu čia išvardinti...
+      `,
       tagsList: {
         title: '',
         tags: [],
@@ -24,11 +32,19 @@ const experienceSectionData = {
       links: [website({ url: 'https://gaveikenai.lt' })],
     },
     {
-      role: t('config.main.sections.experience.jobs.job2.role'),
-      company: t('config.main.sections.experience.jobs.job2.company'),
+      role: 'Buhalteris',
+      company: 'Vilniaus MSV-1',
       image: import('@/assets/logos/msv.png'),
       dates: [new Date('2023-03'), null],
-      description: t('config.main.sections.experience.jobs.job2.description'),
+      description: `
+        Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
+        &nbsp;
+        - **Finansiniai igūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Komunikacijos igūdžiai** renkant pinigus iš sodininkų.
+        &nbsp;
+
+        Ir daug kitų kurių nespėsiu čia išvardinti...
+      `,
       tagsList: {
         title: '',
         tags: [],
@@ -36,11 +52,21 @@ const experienceSectionData = {
       links: [website({ url: 'https://rekvizitai.vz.lt/imone/sodininku_bendrija_vilniaus_msv_1/' })],
     },
     {
-      role: t('config.main.sections.experience.jobs.job3.role'),
-      company: t('config.main.sections.experience.jobs.job3.company'),
+      role: 'Maisto darbuotojas',
+      company: 'Kebappa',
       image: import('@/assets/logos/kebappa.png'),
       dates: [new Date('2021-06'), new Date('2021-07')],
-      description: t('config.main.sections.experience.jobs.job3.description'),
+      description: `
+        Darbas su maistu, klientų aptarnavimas, kuriame buvo vystomi šie įgūdžiai:
+        &nbsp;
+        - **Kritinis mastymas** įtemptomis darbo valandomis.
+        - **Komandinis darbas** su bendradarbiais maisto gaminimo procese.
+        - **Atsakomybė** gaminant maistą bei besirūpinant švara.
+        - **Bendravimas** aptarnaujant klientus.
+        &nbsp;
+
+        Ir daug kitų kurių nespėsiu čia išvardinti...
+      `,
       tagsList: {
         title: '',
         tags: [],
