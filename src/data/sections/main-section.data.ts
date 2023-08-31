@@ -29,7 +29,7 @@ const mainSectionData = {
   tags: [
     { name: 'Atviras laisvai samdomam darbui' },
     { name: 'Galiu patarti IT problemomis' },
-    { name: 'Šiuo metu jokiu projektu neužsiemu' },
+    { name: 'Šiuo metu jokiu projektu neužsiimu' },
   ],
   action: {
     label: 'Atsisiūsti CV',

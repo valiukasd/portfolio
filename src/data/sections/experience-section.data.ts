@@ -16,11 +16,11 @@ const experienceSectionData = {
       image: import('@/assets/logos/gaveikenai.png'),
       dates: [new Date('2023-03'), null],
       description: `
-        Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokeščių tvarkymu bei dokumentų forminimu, kuriame išvysčiau šiuos įgūdžius:
+        Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokesčių tvarkymu bei dokumentų įforminimu, kuriame išvysčiau šiuos įgūdžius:
         &nbsp;
         - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
-        - **Komandinio darbo igūdžiai** dirbant ir komunikuojant su darbuotojais.
-        - **Finansiniai įgūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Komandinio darbo įgūdžiai** dirbant ir komunikuojant su darbuotojais.
+        - **Finansiniai įgūdžiai** mokant mokesčius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
         &nbsp;
 
         Ir daug kitų kurių nespėsiu čia išvardinti...
@@ -37,10 +37,10 @@ const experienceSectionData = {
       image: import('@/assets/logos/msv.png'),
       dates: [new Date('2023-03'), null],
       description: `
-        Dirbu savo sodininkų bendrijoje su pinigais, mokeščių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
+        Dirbu savo sodininkų bendrijoje su pinigais, mokesčių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
         &nbsp;
-        - **Finansiniai igūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
-        - **Komunikacijos igūdžiai** renkant pinigus iš sodininkų.
+        - **Finansiniai įgūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
+        - **Komunikacijos įgūdžiai** renkant pinigus iš sodininkų.
         &nbsp;
 
         Ir daug kitų kurių nespėsiu čia išvardinti...
