@@ -32,7 +32,7 @@ const mainSectionData = {
     { name: 'Šiuo metu jokiu projektu neužsiimu' },
   ],
   action: {
-    label: 'Atsisiūsti CV',
+    label: 'Atsisiųsti CV',
     url: '/cv.pdf',
     downloadedFileName: 'CV-Deividas_Valiukas.pdf',
   },
