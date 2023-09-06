@@ -45,7 +45,7 @@ const main = async () => {
   });
 
   await pdfPage(page, {
-    path: path.join(__dirname, '..', 'public', 'cv.pdf'),
+    path: path.join(__dirname, '..', 'public', 'CV-Deividas_Valiukas.pdf'),
     format: 'A4',
     printBackground: true,
     margin: { top: '10mm', right: '10mm', bottom: '10mm', left: '10mm' },

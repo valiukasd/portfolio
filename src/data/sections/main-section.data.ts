@@ -33,7 +33,7 @@ const mainSectionData = {
   ],
   action: {
     label: 'Atsisiųsti CV',
-    url: '/cv.pdf',
+    url: '/CV-Deividas_Valiukas.pdf',
     downloadedFileName: 'CV-Deividas_Valiukas.pdf',
   },
   links: [

@@ -21,9 +21,6 @@ const experienceSectionData = {
         - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
         - **Komandinio darbo įgūdžiai** dirbant ir komunikuojant su darbuotojais.
         - **Finansiniai įgūdžiai** mokant mokesčius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
-        &nbsp;
-
-        Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
         title: '',
@@ -41,9 +38,6 @@ const experienceSectionData = {
         &nbsp;
         - **Finansiniai įgūdžiai** mokant mokeščius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
         - **Komunikacijos įgūdžiai** renkant pinigus iš sodininkų.
-        &nbsp;
-
-        Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
         title: '',
@@ -63,9 +57,6 @@ const experienceSectionData = {
         - **Komandinis darbas** su bendradarbiais maisto gaminimo procese.
         - **Atsakomybė** gaminant maistą bei besirūpinant švara.
         - **Bendravimas** aptarnaujant klientus.
-        &nbsp;
-
-        Ir daug kitų kurių nespėsiu čia išvardinti...
       `,
       tagsList: {
         title: '',
