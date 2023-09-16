@@ -1,7 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { github, website } from '../helpers/links';
-import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
+import { astro, eslint, nestJs, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -16,7 +16,30 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'gaveikenai.lt',
+      name: 'Pro Rider Inc.',
+      image: import('@/assets/portfolio/Gaveikenai-Logo.png'),
+      dates: [new Date('2023-07'), new Date('2023-08')],
+      details: [
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        { label: 'Mano pareigos', value: ['Front-end programuotojas', 'Dizaineris'] },
+        { label: 'Įmonė', value: 'Pro Rider Inc.' },
+        { label: 'Kategorijos', value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė'] },
+      ],
+      pdfDetails: [{ label: 'Demo', value: 'https://prorider.vercel.app/', url: 'https://prorider.vercel.app/' }],
+      screenshots: [
+        { src: import('@/assets/portfolio/gaveikenai-1.png'), alt: 'Pirmoji nuotrauka' },
+        { src: import('@/assets/portfolio/gaveikenai-2.png'), alt: 'Antroji nuotrauka' },
+        { src: import('@/assets/portfolio/gaveikenai-3.png'), alt: 'Trečioji nuotrauka' },
+      ],
+      description: 'Šią svetainę sukūriau įmonei Pro Rider Inc. paslaugų bei veiklos aprašymui.',
+      tagsList: {
+        title: 'Technologijos',
+        tags: [nextJs(), typescript(), tailwindCss(), pnpm(), prettier()],
+      },
+      links: [website({ url: 'https://prorider.vercel.app/' })],
+    },
+    {
+      name: 'UAB Gaveikenai',
       image: import('@/assets/portfolio/Gaveikenai-Logo.png'),
       dates: [new Date('2023-07'), new Date('2023-08')],
       details: [
