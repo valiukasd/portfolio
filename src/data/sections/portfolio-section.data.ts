@@ -1,7 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { github, website } from '../helpers/links';
-import { astro, eslint, nestJs, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
+import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -17,7 +17,7 @@ const portfolioSectionData = {
   projects: [
     {
       name: 'Pro Rider Inc.',
-      image: import('@/assets/portfolio/Gaveikenai-Logo.png'),
+      image: import('@/assets/logos/prorider.png'),
       dates: [new Date('2023-07'), new Date('2023-08')],
       details: [
         { label: 'Komandos dydis', value: '1 asmuo' },
