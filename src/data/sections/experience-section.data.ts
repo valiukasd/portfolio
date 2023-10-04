@@ -1,20 +1,20 @@
-import type { ExperienceSection } from '@/types/sections/experience-section.types';
-import type { ReadonlyDeep } from 'type-fest';
-import { facebook, website } from '../helpers/links';
+import type { ExperienceSection } from "@/types/sections/experience-section.types";
+import type { ReadonlyDeep } from "type-fest";
+import { facebook, website } from "../helpers/links";
 
 const experienceSectionData = {
   config: {
-    title: 'Darbo patirtis',
-    slug: 'experience',
-    icon: 'fa6-solid:suitcase',
+    title: "Darbo patirtis",
+    slug: "experience",
+    icon: "fa6-solid:suitcase",
     visible: true,
   },
   jobs: [
     {
-      role: 'Front-end Programuotojas',
-      company: 'Gaveikenai UAB',
-      image: import('@/assets/logos/repi.png'),
-      dates: [new Date('2023-09'), null],
+      role: "Front-end Programuotojas",
+      company: "Repi",
+      image: import("@/assets/logos/repi.jpg"),
+      dates: [new Date("2023-09"), null],
       description: `
         Darbas komandoje kuriant naują platformą. Šiame darbe išsyk vystau šiuos igūdžius:
         &nbsp;
@@ -23,16 +23,16 @@ const experienceSectionData = {
         - **Problemų sprendimas** kuriant internetinę platformą skirtą apdoroti daug užsakymu bei talpinti daug duomenų.
       `,
       tagsList: {
-        title: '',
+        title: "",
         tags: [],
       },
-      links: [website({ url: 'https://repi.lt' })],
+      links: [website({ url: "https://repi.lt" })],
     },
     {
-      role: 'Direktorius',
-      company: 'Gaveikenai UAB',
-      image: import('@/assets/logos/gaveikenai.png'),
-      dates: [new Date('2023-03'), null],
+      role: "Direktorius",
+      company: "Gaveikenai UAB",
+      image: import("@/assets/logos/gaveikenai.png"),
+      dates: [new Date("2023-03"), null],
       description: `
         Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokesčių tvarkymu bei dokumentų įforminimu, kuriame išvysčiau šiuos įgūdžius:
         &nbsp;
@@ -41,16 +41,16 @@ const experienceSectionData = {
         - **Finansiniai įgūdžiai** mokant mokesčius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
       `,
       tagsList: {
-        title: '',
+        title: "",
         tags: [],
       },
-      links: [website({ url: 'https://gaveikenai.lt' })],
+      links: [website({ url: "https://gaveikenai.lt" })],
     },
     {
-      role: 'Buhalteris',
-      company: 'Vilniaus MSV-1',
-      image: import('@/assets/logos/msv.png'),
-      dates: [new Date('2023-03'), null],
+      role: "Buhalteris",
+      company: "Vilniaus MSV-1",
+      image: import("@/assets/logos/msv.png"),
+      dates: [new Date("2023-03"), null],
       description: `
         Dirbu savo sodininkų bendrijoje su pinigais, mokesčių ir dokumentų tvarkymu, ir vystau šiuos įgūdžius:
         &nbsp;
@@ -58,11 +58,15 @@ const experienceSectionData = {
         - **Komunikacijos įgūdžiai** renkant pinigus iš sodininkų.
       `,
       tagsList: {
-        title: '',
+        title: "",
         tags: [],
       },
-      links: [website({ url: 'https://rekvizitai.vz.lt/imone/sodininku_bendrija_vilniaus_msv_1/' })],
-    }
+      links: [
+        website({
+          url: "https://rekvizitai.vz.lt/imone/sodininku_bendrija_vilniaus_msv_1/",
+        }),
+      ],
+    },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
 

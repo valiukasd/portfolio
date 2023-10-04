@@ -1,7 +1,18 @@
-import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
-import type { ReadonlyDeep } from 'type-fest';
-import { github, website } from '../helpers/links';
-import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript, angular } from '../helpers/skills';
+import type { PortfolioSection } from "@/types/sections/portfolio-section.types";
+import type { ReadonlyDeep } from "type-fest";
+import { github, website } from "../helpers/links";
+import {
+  astro,
+  eslint,
+  nextJs,
+  npm,
+  pnpm,
+  prettier,
+  react,
+  tailwindCss,
+  typescript,
+  angular,
+} from "../helpers/skills";
 
 const portfolioSectionData = {
   config: {
@@ -17,7 +28,7 @@ const portfolioSectionData = {
   projects: [
     {
       name: "repi.lt",
-      image: import("@/assets/logos/repi.png"),
+      image: import("@/assets/logos/repi.jpg"),
       dates: [new Date("2023-09"), null],
       details: [
         { label: "Komandos dydis", value: "3 asmenys" },
@@ -28,7 +39,11 @@ const portfolioSectionData = {
         { label: "Įmonė", value: "Repi" },
         {
           label: "Kategorijos",
-          value: ["Internetinė svetainė", "Mobiliesiems pritaikyta svetainė", "Internetinė platforma"],
+          value: [
+            "Internetinė svetainė",
+            "Mobiliesiems pritaikyta svetainė",
+            "Internetinė platforma",
+          ],
         },
       ],
       pdfDetails: [
@@ -42,7 +57,14 @@ const portfolioSectionData = {
         "Repi - automobilių remonto platforma, sujungianti galutinį vartotoją su remonto įmonėmis.",
       tagsList: {
         title: "Technologijos",
-        tags: [angular(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+        tags: [
+          angular(),
+          typescript(),
+          tailwindCss(),
+          npm(),
+          prettier(),
+          eslint(),
+        ],
       },
       links: [website({ url: "https://repi.lt/" })],
     },
