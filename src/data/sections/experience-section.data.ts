@@ -11,6 +11,24 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Front-end Programuotojas',
+      company: 'Gaveikenai UAB',
+      image: import('@/assets/logos/repi.png'),
+      dates: [new Date('2023-09'), null],
+      description: `
+        Darbas komandoje kuriant naują platformą. Šiame darbe išsyk vystau šiuos igūdžius:
+        &nbsp;
+        - **Komunikacijos igūdžiai** dirbant su kitomis komandomis: dizaineiriais, pardavimu bei kitomis.
+        - **Komandinio darbo įgūdžiai** dirbant ir komunikuojant su komandos nariais.
+        - **Problemų sprendimas** kuriant internetinę platformą skirtą apdoroti daug užsakymu bei talpinti daug duomenų.
+      `,
+      tagsList: {
+        title: '',
+        tags: [],
+      },
+      links: [website({ url: 'https://repi.lt' })],
+    },
+    {
       role: 'Direktorius',
       company: 'Gaveikenai UAB',
       image: import('@/assets/logos/gaveikenai.png'),
@@ -44,26 +62,7 @@ const experienceSectionData = {
         tags: [],
       },
       links: [website({ url: 'https://rekvizitai.vz.lt/imone/sodininku_bendrija_vilniaus_msv_1/' })],
-    },
-    {
-      role: 'Maisto darbuotojas',
-      company: 'Kebappa',
-      image: import('@/assets/logos/kebappa.png'),
-      dates: [new Date('2021-06'), new Date('2021-07')],
-      description: `
-        Darbas su maistu, klientų aptarnavimas, kuriame buvo vystomi šie įgūdžiai:
-        &nbsp;
-        - **Kritinis mastymas** įtemptomis darbo valandomis.
-        - **Komandinis darbas** su bendradarbiais maisto gaminimo procese.
-        - **Atsakomybė** gaminant maistą bei besirūpinant švara.
-        - **Bendravimas** aptarnaujant klientus.
-      `,
-      tagsList: {
-        title: '',
-        tags: [],
-      },
-      links: [website({ url: 'https://www.kebappa.lt/' }), facebook({ url: 'https://www.facebook.com/kebappa/' })],
-    },
+    }
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
 
