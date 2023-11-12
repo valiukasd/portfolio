@@ -42,9 +42,10 @@ const skillsSectionData = {
         { icon: 'flat-color-icons:factory', name: 'Darbštumas', level: 5 },
         { icon: 'flat-color-icons:alarm-clock', name: 'Kritinis mastymas', level: 5 },
         { icon: 'flat-color-icons:planner', name: 'Laiko planavimas', level: 5 },
-        { icon: 'flat-color-icons:reading', name: 'Prisitaikymas', level: 4 },
+        { icon: 'flat-color-icons:reading', name: 'Prisitaikymas', level: 5 },
+
+        { icon: 'flat-color-icons:voice-presentation', name: 'Komandinis darbas', level: 5 },
         { icon: 'flat-color-icons:podium-with-speaker', name: 'Vadovybė', level: 4 },
-        { icon: 'flat-color-icons:voice-presentation', name: 'Komandinis darbas', level: 4 },
       ],
     },
     {
@@ -58,15 +59,19 @@ const skillsSectionData = {
         }),
         tailwindCss({ level: 5 }),
         typescript({
-          level: 4,
+          level: 5,
         }),
         prettier({ level: 5 }),
         pnpm({ level: 5 }),
         npm({ level: 5 }),
+
+        astro({ level: 5 }),
+
+        supabase({ level: 5 }),
+        angular({ level: 5 }),
         eslint({
           level: 4,
         }),
-        astro({ level: 3 }),
         apolloGraphql({ level: 3 }),
         postgreSql({ level: 3 }),
         mongoDb({ level: 2 }),
@@ -74,7 +79,7 @@ const skillsSectionData = {
     },
     {
       title: 'Noriu išmokti',
-      skills: [supabase(), cypress(), vue(), angular()],
+      skills: [cypress(), vue()],
     },
   ],
 } as const satisfies ReadonlyDeep<SkillsSection>;
