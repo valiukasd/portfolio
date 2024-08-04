@@ -5,15 +5,13 @@ import {
   apolloGraphql,
   astro,
   cypress,
+  dotNet,
   eslint,
   mongoDb,
   nextJs,
-  npm,
-  pnpm,
   postgreSql,
-  prettier,
   react,
-  supabase,
+  reactNative,
   tailwindCss,
   typescript,
   vue,
@@ -45,7 +43,7 @@ const skillsSectionData = {
         { icon: 'flat-color-icons:reading', name: 'Prisitaikymas', level: 5 },
 
         { icon: 'flat-color-icons:voice-presentation', name: 'Komandinis darbas', level: 5 },
-        { icon: 'flat-color-icons:podium-with-speaker', name: 'Vadovybė', level: 4 },
+        { icon: 'flat-color-icons:podium-with-speaker', name: 'Vadovybė', level: 5 },
       ],
     },
     {
@@ -54,26 +52,25 @@ const skillsSectionData = {
         react({
           level: 5,
         }),
+        angular({ level: 5 }),
+        astro({ level: 5 }),
         nextJs({
           level: 5,
         }),
+
         tailwindCss({ level: 5 }),
         typescript({
           level: 5,
         }),
-        prettier({ level: 5 }),
-        pnpm({ level: 5 }),
-        npm({ level: 5 }),
+        postgreSql({ level: 5 }),
 
-        astro({ level: 5 }),
+        reactNative({ level: 4 }),
 
-        supabase({ level: 5 }),
-        angular({ level: 5 }),
         eslint({
           level: 4,
         }),
+        dotNet({ level: 3 }),
         apolloGraphql({ level: 3 }),
-        postgreSql({ level: 3 }),
         mongoDb({ level: 2 }),
       ],
     },

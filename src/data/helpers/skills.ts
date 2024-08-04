@@ -60,6 +60,13 @@ export const firebase = createSkillFactory({
   url: 'https://firebase.google.com/',
 });
 
+export const dotNet = createSkillFactory({
+  name: '.NET',
+  icon: 'simple-icons:dotnet',
+  iconColor: '#512BD4',
+  url: 'https://dotnet.microsoft.com/en-us/',
+});
+
 export const jest = createSkillFactory({
   name: 'Jest',
   icon: 'simple-icons:jest',
@@ -121,6 +128,13 @@ export const react = createSkillFactory({
   icon: 'simple-icons:react',
   iconColor: '#61DAFB',
   url: 'https://reactjs.org/',
+});
+
+export const reactNative = createSkillFactory({
+  name: 'React Native',
+  icon: 'simple-icons:react',
+  iconColor: '#61DAFB',
+  url: 'https://reactnative.dev/',
 });
 
 export const reactQuery = createSkillFactory({

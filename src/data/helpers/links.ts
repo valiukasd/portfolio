@@ -148,6 +148,16 @@ export const website = createLinkFactory({
   icon: 'fa6-solid:globe',
 });
 
+export const android = createLinkFactory({
+  name: 'Android',
+  icon: 'simple-icons:android',
+});
+
+export const ios = createLinkFactory({
+  name: 'iOS',
+  icon: 'simple-icons:apple',
+});
+
 export const demo = createLinkFactory({
   name: 'Demo',
   icon: 'fa6-solid:desktop',

@@ -1,7 +1,19 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, website } from '../helpers/links';
-import { astro, eslint, nextJs, npm, pnpm, prettier, react, tailwindCss, typescript, angular } from '../helpers/skills';
+import { android, github, ios, website } from '../helpers/links';
+import {
+  astro,
+  eslint,
+  nextJs,
+  npm,
+  pnpm,
+  prettier,
+  react,
+  tailwindCss,
+  typescript,
+  angular,
+  reactNative,
+} from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -16,7 +28,135 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'repi.lt',
+      name: 'Maestros',
+      image: import('@/assets/logos/maestros.png'),
+      dates: [new Date('2024-07'), null],
+      details: [
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        {
+          label: 'Mano pareigos',
+          value: ['Mobiliosios aplikacijos programuotojas'],
+        },
+        { label: 'Įmonė', value: 'UAB Termobaltic' },
+        {
+          label: 'Kategorijos',
+          value: ['Mobilioji programėlė'],
+        },
+      ],
+      pdfDetails: [
+        {
+          label: 'Android',
+          value: 'https://www.maestros.lt/',
+          url: 'https://www.maestros.lt/',
+        },
+        {
+          label: 'iOS',
+          value: 'https://www.maestros.lt/',
+          url: 'https://www.maestros.lt/',
+        },
+      ],
+      description:
+        'Maestros mobilioji programėlė - svetainės versija tiesiogiai vartotojų telefone. Programėlė pilnai optimizuota, sukurta iOS ir Android versija.',
+      tagsList: {
+        title: 'Technologijos',
+        tags: [reactNative(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+      },
+      links: [android({ url: 'https://www.maestros.lt/' }), ios({ url: 'https://www.maestros.lt/' })],
+    },
+    {
+      name: 'www.maestros.lt',
+      image: import('@/assets/logos/maestros.png'),
+      dates: [new Date('2024-05'), null],
+      details: [
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        {
+          label: 'Mano pareigos',
+          value: ['Full-Stack programuotojas'],
+        },
+        { label: 'Įmonė', value: 'UAB Termobaltic' },
+        {
+          label: 'Kategorijos',
+          value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė', 'Internetinė platforma'],
+        },
+      ],
+      pdfDetails: [
+        {
+          label: 'Svetainė',
+          value: 'https://www.maestros.lt/',
+          url: 'https://www.maestros.lt/',
+        },
+      ],
+      description:
+        'Maestros - nauja paslaugų skelbimo platforma. Šia platformą kūriau atsižvelgiant į kliento norus, dabartinę paslaugų portalų rinką, geriausią vartotojo patirtį.',
+      tagsList: {
+        title: 'Technologijos',
+        tags: [react(), nextJs(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+      },
+      links: [website({ url: 'https://www.maestros.lt/' })],
+    },
+    {
+      name: 'www.codus.lt',
+      image: import('@/assets/logos/codus.png'),
+      dates: [new Date('2023-12'), new Date('2024-02')],
+      details: [
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        {
+          label: 'Mano pareigos',
+          value: ['Full-Stack programuotojas'],
+        },
+        { label: 'Įmonė', value: 'UAB Codus' },
+        {
+          label: 'Kategorijos',
+          value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė'],
+        },
+      ],
+      pdfDetails: [
+        {
+          label: 'Svetainė',
+          value: 'https://www.codus.lt/',
+          url: 'https://www.codus.lt/',
+        },
+      ],
+      description: 'Mano įmonės reprezentacinė svetainė.',
+      tagsList: {
+        title: 'Technologijos',
+        tags: [react(), nextJs(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+      },
+      links: [website({ url: 'https://www.codus.lt/' })],
+    },
+    {
+      name: 'www.vilagnis.lt',
+      image: import('@/assets/logos/vilagnis.png'),
+      dates: [new Date('2024-01'), new Date('2024-02')],
+      details: [
+        { label: 'Komandos dydis', value: '1 asmuo' },
+        {
+          label: 'Mano pareigos',
+          value: ['Front-End programuotojas'],
+        },
+        { label: 'Įmonė', value: 'UAB Vilagnis' },
+        {
+          label: 'Kategorijos',
+          value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė'],
+        },
+      ],
+      pdfDetails: [
+        {
+          label: 'Svetainė',
+          value: 'https://vilagnis.lt/',
+          url: 'https://vilagnis.lt/',
+        },
+      ],
+      description:
+        'UAB Vilagnis reprezentacinė internetinė svetainė su papildomu funkcionalumu - katilų klaidų kodų paieška, atsarginių dalių katalogas.',
+      tagsList: {
+        title: 'Technologijos',
+        tags: [react(), nextJs(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+      },
+      links: [website({ url: 'https://vilagnis.lt/' })],
+    },
+    {
+      name: 'www.repi.lt',
       image: import('@/assets/logos/repi.jpg'),
       dates: [new Date('2023-09'), null],
       details: [
@@ -46,7 +186,7 @@ const portfolioSectionData = {
       links: [website({ url: 'https://repi.lt/' })],
     },
     {
-      name: 'gaveikenai.lt',
+      name: 'www.gaveikenai.lt',
       image: import('@/assets/portfolio/Gaveikenai-Logo.png'),
       dates: [new Date('2023-07'), new Date('2023-08')],
       details: [
@@ -91,7 +231,7 @@ const portfolioSectionData = {
       links: [website({ url: 'https://gaveikenai.lt/' })],
     },
     {
-      name: 'valiukasd.lt',
+      name: 'www.valiukasd.lt',
       image: import('@/assets/portfolio/Portfolio-Logo.png'),
       dates: [new Date('2023-06'), new Date('2023-07')],
       details: [
@@ -133,7 +273,7 @@ const portfolioSectionData = {
         },
       ],
       description:
-        'Šią svetainę sukūriau kaip savo CV svetainės formatu, bei norėjau parodyti savo dabartinius ir praeitus projektus. Šį projektą dariau apie savaitę ir labai džiaugiuosi jog pasirinkau naują technologiją, su kuria anksčiau nesu dirbęs.',
+        'Šią svetainę sukūriau kaip savo CV svetainės formatu bei dabartinių ir praeitų projektų parodą. Šį projektą dariau apie savaitę ir labai džiaugiuosi jog pasirinkau naują technologiją, su kuria anksčiau nesu dirbęs.',
       tagsList: {
         title: 'Technologijos',
         tags: [astro(), react(), typescript(), tailwindCss(), npm(), eslint(), prettier()],
@@ -178,12 +318,12 @@ const portfolioSectionData = {
         },
       ],
       description:
-        'Šią internetinę parduotuvę sukūriau kaip savo pirmąjį pilną projektą, savo įgūdžiams įtvirtinti. Darbo įdėjau labai daug, kadangi viską dariau nuo nulio, tačiau išmokau labai daug ir labai džiaugiuosi jog užbaigiau šį projektą.',
+        'Šią internetinę parduotuvę sukūriau kaip savo pirmąjį pilną projektą, savo įgūdžiams įtvirtinti. Darbo įdėjau labai daug, kadangi viską dariau nuo nulio, tačiau išmokau labai daug ir labai džiaugiuosi jog užbaigiau šį projektą. Deja, ši svetainė nėra pasiekiama šiandien.',
       tagsList: {
         title: 'Technologijos',
         tags: [nextJs(), react(), typescript(), tailwindCss(), eslint(), pnpm()],
       },
-      links: [website({ url: 'https://avimeta.valiukasd.lt' })],
+      links: [],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;

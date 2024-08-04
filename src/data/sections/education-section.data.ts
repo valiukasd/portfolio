@@ -11,6 +11,14 @@ const educationSectionData = {
   },
   diplomas: [
     {
+      title: 'Aukštasis išsilavinimas',
+      institution: 'Kauno technologijos universitetas',
+      image: import('@/assets/logos/ktu.png'),
+      dates: [new Date('2024.09'), null],
+      description: 'Studijų sritis - Programų sistemos.',
+      links: [website({ url: 'https://if.ktu.edu/' })],
+    },
+    {
       title: 'Pagrindinis išsilavinimas',
       institution: 'Vilniaus Salininkų gimnazija',
       image: import('@/assets/logos/salininkai.png'),
