@@ -20,6 +20,7 @@ const experienceSectionData = {
         &nbsp;
         - **Full-Stack programavimo įgūdžiai** dirbant su projektais: sprendimų sudarymas ir įgyvendinimas atsižvelgiant į kliento norus bei poreikius.
         - **Mobiliųjų programėlių kūrimo įgūdžiai** dirbant su projektais: optimizuotų bei modernių mobiliųjų programėlių kūrimas.
+        - **Sistemų administravimo įgūdžiai** prižiūrint projektus: jau užbaigtų projektų palaikymas, našumo užtikrinimas.
         - **Komunikaciniai įgūdžiai** bendraujant su klientais ir analizuojant jų norus.
         - **Verslo raidos įgūdžiai** vystant įmonę, tvarkant administracinius dokumentus, buhalterinius dokumentus.
       `,
