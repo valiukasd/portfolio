@@ -49,24 +49,6 @@ const experienceSectionData = {
       links: [website({ url: 'https://repi.lt' })],
     },
     {
-      role: 'Direktorius',
-      company: 'Gaveikenai UAB',
-      image: import('@/assets/logos/gaveikenai.png'),
-      dates: [new Date('2023-03'), null],
-      description: `
-        Darbas smulkioje įmonėje su klientais, transportavimo paslaugomis, mokesčių tvarkymu bei dokumentų įforminimu, kuriame išvysčiau šiuos įgūdžius:
-        &nbsp;
-        - **Įmonės valdymas** dirbant su dokumentais, valstybės bei kitomis įstaigomis.
-        - **Komandinio darbo įgūdžiai** dirbant ir komunikuojant su darbuotojais.
-        - **Finansiniai įgūdžiai** mokant mokesčius, užsakant paslaugas bei perkant įmonei reikalingas prekes.
-      `,
-      tagsList: {
-        title: '',
-        tags: [],
-      },
-      links: [website({ url: 'https://gaveikenai.lt' })],
-    },
-    {
       role: 'Buhalteris',
       company: 'Vilniaus MSV-1',
       image: import('@/assets/logos/msv.png'),
