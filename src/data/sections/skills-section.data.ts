@@ -7,6 +7,7 @@ import {
   cypress,
   dotNet,
   eslint,
+  goLang,
   mongoDb,
   nextJs,
   postgreSql,
@@ -57,7 +58,6 @@ const skillsSectionData = {
         nextJs({
           level: 5,
         }),
-
         tailwindCss({ level: 5 }),
         typescript({
           level: 5,
@@ -65,12 +65,14 @@ const skillsSectionData = {
         postgreSql({ level: 5 }),
 
         reactNative({ level: 4 }),
-
         eslint({
           level: 4,
         }),
+
+        goLang({ level: 3 }),
         dotNet({ level: 3 }),
         apolloGraphql({ level: 3 }),
+
         mongoDb({ level: 2 }),
       ],
     },

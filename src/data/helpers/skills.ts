@@ -137,6 +137,13 @@ export const reactNative = createSkillFactory({
   url: 'https://reactnative.dev/',
 });
 
+export const goLang = createSkillFactory({
+  name: 'Go',
+  icon: 'logos:go',
+  iconColor: '#00acd7',
+  url: 'https://go.dev/',
+});
+
 export const reactQuery = createSkillFactory({
   name: 'React Query',
   icon: 'simple-icons:reactquery',

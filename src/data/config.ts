@@ -20,12 +20,13 @@ const config = {
     footer: 'Sutinku, kad mano asmens duomenys, įtraukti į mano CV, būtų tvarkomi įdarbinimo proceso tikslais.',
   },
   cta: {
-    title: 'Reikia svetainės?',
-    description: 'Suteikiu svetainės kūrimo bei administravimo paslaugas nuo idėjos iki įgyvendinimo. Susisiekime!',
+    title: 'Turite idėją?',
+    description:
+      'Suteikiame IT sprendimų kūrimo bei administravimo paslaugas nuo idėjos iki įgyvendinimo. Susisiekime!',
     icon: 'twemoji:waving-hand',
     visible: true,
     buttonLabel: 'Susisiekti →',
-    buttonUrl: 'mailto:labas@valiukasd.lt',
+    buttonUrl: 'https://www.codus.lt',
   },
 } as const satisfies ReadonlyDeep<Config>;
 

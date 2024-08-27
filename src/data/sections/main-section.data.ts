@@ -18,7 +18,7 @@ const mainSectionData = {
     { label: 'Amžius', value: '19 metų' },
     {
       label: 'Specializacija',
-      value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas, mobiliųjų aplikacijų kūrimas, IT paslaugos',
+      value: 'Internetinių svetainių kūrimas, programų sistemų kūrimas, mobiliųjų aplikacijų kūrimas, IT sprendimai',
     },
   ],
   pdfDetails: [
@@ -28,7 +28,7 @@ const mainSectionData = {
     { label: 'Website', value: 'valiukasd.lt', url: 'https://valiukasd.lt/', fullRow: true },
   ],
   description:
-    'Sveiki! Aš esu Deividas. Šiuo metu man yra 19 metų, gyvenu Kaune, ten pat ir mokausi, dabar esu studentas Kauno technologijų universitete. Esu labai kūrybingas, moku dirbti komandoje, man svarbi kiekviena detalė, taip pat labai greit įgaunu naujų įgūdžių bei žinių. Nuo vaikystės be galo domėjausi kompiuteriais, pradėjau tyrinėti kaip ir kodėl jie veikia, maždaug tuo metu ir atradau programavimą, tad būdamas trylikos metų jau sukūriau pirmąją savo internetinę svetainę, būdamas keturiolikos - pirmąjį savo kompiuterinį žaidimą, o penkiolikos - pirmą API serverį, tačiau čia nesustojau ir tobulėju iki šiol, ir dabar jau galiu savarankiškai kurti projektus, be problemų išmokdamas naują programavimo kalbą ar technologiją.',
+    'Sveiki! Aš esu Deividas. Šiuo metu man yra 19 metų, gyvenu Kaune, ten pat ir mokausi, dabar esu studentas Kauno technologijų universitete. Esu labai kūrybingas, moku dirbti komandoje, man svarbi kiekviena detalė, taip pat labai greit įgaunu naujų įgūdžių bei žinių. Nuo vaikystės be galo domėjausi kompiuteriais, pradėjau tyrinėti kaip ir kodėl jie veikia, maždaug tuo metu ir atradau programavimą, tad būdamas trylikos metų jau sukūriau pirmąją savo internetinę svetainę, būdamas keturiolikos - pirmąjį savo kompiuterinį žaidimą, o penkiolikos - pirmą API serverį, tačiau čia nesustojau ir tobulėju iki šiol, ir dabar jau galiu savarankiškai kurti projektus, be problemų išmokdamas naują programavimo kalbą ar technologiją. Po 18 gimtadienio atidariau savo IT sprendimų teikimo įmonę (kurioje pabaigiau nemažai projektų), kurią sėkmingai vystau iki šiol.',
   tags: [{ name: 'Atviras laisvai samdomam darbui' }, { name: 'Galiu patarti IT problemomis' }],
   action: {
     label: 'Atsisiųsti CV',
