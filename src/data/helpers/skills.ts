@@ -138,7 +138,7 @@ export const reactNative = createSkillFactory({
 });
 
 export const goLang = createSkillFactory({
-  name: 'Go',
+  name: 'Golang',
   icon: 'logos:go',
   iconColor: '#00acd7',
   url: 'https://go.dev/',
