@@ -27,41 +27,72 @@ const portfolioSectionData = {
     },
   },
   projects: [
+    // {
+    //   name: 'Maestros',
+    //   image: import('@/assets/logos/maestros.png'),
+    //   dates: [new Date('2024-07'), null],
+    //   details: [
+    //     { label: 'Komandos dydis', value: '1 asmuo' },
+    //     {
+    //       label: 'Mano pareigos',
+    //       value: ['Mobiliosios aplikacijos programuotojas'],
+    //     },
+    //     { label: 'Įmonė', value: 'UAB Termobaltic' },
+    //     {
+    //       label: 'Kategorijos',
+    //       value: ['Mobilioji programėlė'],
+    //     },
+    //   ],
+    //   pdfDetails: [
+    //     {
+    //       label: 'Android',
+    //       value: 'https://www.maestros.lt/',
+    //       url: 'https://www.maestros.lt/',
+    //     },
+    //     {
+    //       label: 'iOS',
+    //       value: 'https://www.maestros.lt/',
+    //       url: 'https://www.maestros.lt/',
+    //     },
+    //   ],
+    //   description:
+    //     'Maestros mobilioji programėlė - svetainės versija tiesiogiai vartotojų telefone. Programėlė pilnai optimizuota, sukurta iOS ir Android versija.',
+    //   tagsList: {
+    //     title: 'Technologijos',
+    //     tags: [reactNative(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+    //   },
+    //   links: [android({ url: 'https://www.maestros.lt/' }), ios({ url: 'https://www.maestros.lt/' })],
+    // },
     {
-      name: 'Maestros',
-      image: import('@/assets/logos/maestros.png'),
-      dates: [new Date('2024-07'), null],
+      name: 'www.lioness.lt',
+      image: import('@/assets/logos/lioness.png'),
+      dates: [new Date('2024-11'), new Date("2024-12")],
       details: [
         { label: 'Komandos dydis', value: '1 asmuo' },
         {
           label: 'Mano pareigos',
-          value: ['Mobiliosios aplikacijos programuotojas'],
+          value: ['Full-Stack programuotojas'],
         },
-        { label: 'Įmonė', value: 'UAB Termobaltic' },
+        { label: 'Įmonė', value: 'MB Lioness LT' },
         {
           label: 'Kategorijos',
-          value: ['Mobilioji programėlė'],
+          value: ['Internetinė svetainė', 'Mobiliesiems pritaikyta svetainė', 'Internetinė platforma'],
         },
       ],
       pdfDetails: [
         {
-          label: 'Android',
-          value: 'https://www.maestros.lt/',
-          url: 'https://www.maestros.lt/',
-        },
-        {
-          label: 'iOS',
-          value: 'https://www.maestros.lt/',
-          url: 'https://www.maestros.lt/',
+          label: 'Svetainė',
+          value: 'https://www.lioness.lt/',
+          url: 'https://www.lioness.lt/',
         },
       ],
       description:
-        'Maestros mobilioji programėlė - svetainės versija tiesiogiai vartotojų telefone. Programėlė pilnai optimizuota, sukurta iOS ir Android versija.',
+        'Lioness - sveikatingumo studijos treniruočių rezervavimo platforma. Pagrindinis fokusas buvo skirtas laikų ir registracijų automatizacijai ir geriausiai vartotojo patirčiai.',
       tagsList: {
         title: 'Technologijos',
-        tags: [reactNative(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
+        tags: [react(), nextJs(), typescript(), tailwindCss(), npm(), prettier(), eslint()],
       },
-      links: [android({ url: 'https://www.maestros.lt/' }), ios({ url: 'https://www.maestros.lt/' })],
+      links: [website({ url: 'https://www.maestros.lt/' })],
     },
     {
       name: 'www.maestros.lt',

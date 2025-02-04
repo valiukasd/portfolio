@@ -34,7 +34,7 @@ const experienceSectionData = {
       role: 'Front-End Programuotojas',
       company: 'Repi',
       image: import('@/assets/logos/repi.jpg'),
-      dates: [new Date('2023-09'), null],
+      dates: [new Date('2023-09'), new Date("2024-11")],
       description: `
         Darbas komandoje kuriant naują platformą. Šioje pozicijoje išsyk vystau šiuos igūdžius:
         &nbsp;
